@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(blue, lightblue, skyblue,lightsteelblue);
+    color: black;
+}
+
+.block, .inline{
+    background-color: rgb(163, 252, 255);
+    width: 450px;
+    border-radius: 8px;
+}
+
+.topbar{
+    width: auto;
+    height: 30px;
+    background-color: rgb(173, 250, 220);
+    border-radius: 10px;
+    position: relative;
+    top:5px;
+}
+
+.homepageButton{
+    background: lightsteelblue;
+    color: gray;
+    filter: saturate(140%);
+    border-radius: 20px;
+    border: solid rgb(9, 72, 109) 2px;
+    position: absolute;
+    top: 5px;
+    left:5px;
+}
+
+.htmlButton{
+    background: lightsteelblue;
+    color: gray;
+    filter: saturate(140%);
+    border-radius: 20px;
+    border: solid rgb(9, 72, 109) 2px;
+    position: absolute;
+    top: 5px;
+    left: 92px;
+}
+.cssButton{
+    background: lightsteelblue;
+    color: gray;
+    filter: saturate(140%);
+    border-radius: 20px;
+    border: solid rgb(9, 72, 109) 2px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+}
+
+.jsButton{
+    background: lightsteelblue;
+    color: gray;
+    filter: saturate(140%);
+    border-radius: 20px;
+    border: solid rgb(9, 72, 109) 2px;
+    position: absolute;
+    top: 5px;
+    left: 199px;
+}
