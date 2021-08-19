@@ -3,9 +3,9 @@ body{
     color: black;
 }
 
-.block, .inline{
+.block{
     background-color: rgb(163, 252, 255);
-    width: 450px;
+    width: auto;
     border-radius: 8px;
 }
 
@@ -63,4 +63,8 @@ body{
 img{
     border-radius: 20px;
     width: 400px;
+}
+
+.spaces{
+    margin-left: 25px;
 }
