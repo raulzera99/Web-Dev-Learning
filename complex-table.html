@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex table</title>
+</head>
+<body>
+    <table>
+        
+        <caption>Produzidos x Vendidos por loja</caption>
+
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: greenyellow;"> 
+            <col span="2" style="background-color: green;"> 
+        </colgroup>
+        
+        
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Babylon</th>
+                <th colspan="2" scope="colgroup">Cogulândia</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Orange</th>
+                <td>50</td>
+                <td>49</td>
+                <td>50</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <th scope="row">Purple</th>
+                <td>150</td>
+                <td>150</td>
+                <td>250</td>
+                <td>190</td>
+            </tr>
+            <tr>
+                <th scope="row">Widow</th>
+                <td>350</td>
+                <td>270</td>
+                <td>250</td>
+                <td>200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
